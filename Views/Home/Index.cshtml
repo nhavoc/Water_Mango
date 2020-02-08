@@ -1,0 +1,102 @@
+﻿@model IEnumerable<PWM.Models.Plant>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row mt-2">
+    <div class="col-md-12">
+        <div class="card p-0" id="plants-card">
+            @Html.Partial("_PartialPlants",Model)
+        </div>
+    </div>
+</div>
+
+@section scripts{
+
+   <script>
+       $(document).ready(function () {
+           window.setInterval(checkStatus, 3000);
+           //1- Select all plants which can be watered.
+           $(document).on("click", "#check-all", function () {
+               if ($(this).is(":checked") == true) {
+                   $("table > tbody >tr").each(function () {
+                       if ($(this).data("rewater") == "true") {
+                           $(this).find("input:checkbox").prop("checked", true);
+                       }
+                   });
+               }
+               else {
+                   $("table > tbody >tr").each(function () {
+                       $(this).find("input:checkbox").prop("checked", false);
+                   });
+               }
+
+               if ($(".p-check:checked").length > 0) {
+                   $(".water-all").prop("disabled", false);
+               }
+               else {
+                    $(".water-all").prop("disabled", true);
+               }
+           });
+           //end 1
+
+           //2-Water all plants
+           var plantIds = [];
+           $(document).on("click", ".water-all", function () {
+               $.when(
+                    $(".p-check:checked").each(function () {
+                        plantIds.push($(this).data('id'));
+               })
+               ).done(function () {
+                   if (plantIds.length > 0) {
+                       $.blockUI({ message: '<img src="/btngif.gif" />', css: { backgroundColor: 'transparent', border: 'none' } });
+                       $.post("@Url.Action("WaterAll")", { PlantIds: plantIds }, function (response) {
+                           $("#plants-card").empty().html(response);
+                           $.unblockUI();
+                       });
+                   }
+               });
+           });
+           //end 2
+       });
+
+       // Begin watering individual plant
+       function fnBegin() {
+           $.blockUI({ message: '<img src="/btngif.gif" />', css: { backgroundColor: 'transparent', border: 'none' } }); 
+
+       }
+       //Complete watering individual plant
+       function fnComplete(){
+           $.unblockUI();
+       }
+
+       function checkStatus() {
+        $("table > tbody >tr").each(function () {
+            var row = $(this);
+            var date = $(this).data("lastwatered");
+            let formatedWateredDate = moment(date);
+
+
+            var currentDate = moment();
+            let formatedCurrentDate = moment(currentDate);
+
+
+            var diff = formatedCurrentDate.diff(formatedWateredDate, "seconds");
+            var hoursDiff = formatedCurrentDate.diff(formatedWateredDate, "hours");
+
+            if (diff > 30) {
+                row.find("input").prop("disabled", false);
+                row.addClass("bg-warning");
+                row.data('rewater', "true");
+            }
+            if (hoursDiff >=6) {
+                row.find("input").prop("disabled", false);
+                row.removeClass("bg-warning").addClass("bg-danger");
+                row.data('rewater', "true");
+            }
+        });
+    }
+       
+    </script>
+
+    }

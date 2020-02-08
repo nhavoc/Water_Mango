@@ -1,0 +1,65 @@
+﻿@model IEnumerable<PWM.Models.Plant>
+
+<div class="card-body p-0">
+    <div class="table-responsive p-0">
+        <table class="table table-bordered table-success table-striped plants-table pb-0">
+            <thead>
+                <tr>
+                    <th width="10%" class="text-center">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="check-all">
+                            <label class="custom-control-label" for="check-all"></label>
+                        </div>
+                    </th>
+                    <th>Plant</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var plant in Model)
+                {
+                    var nullDate = DateTime.Now.AddHours(-6);
+                        if(plant.LastWatered==null)
+                        {
+                        plant.LastWatered = nullDate;
+                    }
+                    var needsWater = plant.LastWatered == null || DateTime.Now >= plant.LastWatered.Value.AddHours(6);
+                    var rewater = (plant.LastWatered == null || DateTime.Now >= plant.LastWatered.Value.AddSeconds(30));
+
+                    <tr data-lastwatered="@plant.LastWatered" data-rewater="@rewater.ToString().ToLower()"
+                        disabled="@(!rewater)"
+                        class="@(needsWater?"bg-danger text-white":rewater?"bg-warning":"")">
+                        <td width="10%" class="text-center">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input p-check" id="customCheck_@plant.Id"
+                                       data-id="@plant.Id"
+                                       disabled="@(!rewater)">
+                                <label class="custom-control-label" for="customCheck_@plant.Id"></label>
+                            </div>
+                        </td>
+                        <td>@plant.Name</td>
+                        <td>
+                            @using (Ajax.BeginForm("WaterPlant", "Home", new AjaxOptions
+                            {
+                                HttpMethod = "POST",
+                                UpdateTargetId = "plants-card",
+                                OnBegin = "fnBegin",
+                                OnComplete = "fnComplete"
+                            }))
+                            {
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="id" value="@plant.Id" />
+                                <input type="submit" class="btn btn-primary" value="Start Watering"
+                                       disabled="@(!rewater)" />
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="card-footer bg-transparent border-top-0">
+    <input type="button" class="btn btn-primary water-all" value="Water All Plants" disabled="disabled" />
+</div>

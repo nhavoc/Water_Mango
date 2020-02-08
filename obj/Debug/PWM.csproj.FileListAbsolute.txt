@@ -1,0 +1,178 @@
+D:\Client_Projects\PWM\bin\PWM.dll.config
+D:\Client_Projects\PWM\bin\PWM.dll
+D:\Client_Projects\PWM\bin\PWM.pdb
+D:\Client_Projects\PWM\bin\roslyn\csc.exe
+D:\Client_Projects\PWM\bin\roslyn\csc.exe.config
+D:\Client_Projects\PWM\bin\roslyn\csc.rsp
+D:\Client_Projects\PWM\bin\roslyn\csi.exe
+D:\Client_Projects\PWM\bin\roslyn\csi.exe.config
+D:\Client_Projects\PWM\bin\roslyn\csi.rsp
+D:\Client_Projects\PWM\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Client_Projects\PWM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Client_Projects\PWM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Client_Projects\PWM\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Client_Projects\PWM\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Client_Projects\PWM\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Client_Projects\PWM\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Client_Projects\PWM\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Client_Projects\PWM\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Client_Projects\PWM\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Client_Projects\PWM\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Client_Projects\PWM\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Client_Projects\PWM\bin\roslyn\System.AppContext.dll
+D:\Client_Projects\PWM\bin\roslyn\System.Collections.Immutable.dll
+D:\Client_Projects\PWM\bin\roslyn\System.Console.dll
+D:\Client_Projects\PWM\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Client_Projects\PWM\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Client_Projects\PWM\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Client_Projects\PWM\bin\roslyn\System.Globalization.Calendars.dll
+D:\Client_Projects\PWM\bin\roslyn\System.IO.Compression.dll
+D:\Client_Projects\PWM\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Client_Projects\PWM\bin\roslyn\System.IO.FileSystem.dll
+D:\Client_Projects\PWM\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Client_Projects\PWM\bin\roslyn\System.Net.Http.dll
+D:\Client_Projects\PWM\bin\roslyn\System.Net.Sockets.dll
+D:\Client_Projects\PWM\bin\roslyn\System.Reflection.Metadata.dll
+D:\Client_Projects\PWM\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Client_Projects\PWM\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Client_Projects\PWM\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Client_Projects\PWM\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Client_Projects\PWM\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Client_Projects\PWM\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Client_Projects\PWM\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Client_Projects\PWM\bin\roslyn\System.ValueTuple.dll
+D:\Client_Projects\PWM\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Client_Projects\PWM\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Client_Projects\PWM\bin\roslyn\System.Xml.XPath.dll
+D:\Client_Projects\PWM\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Client_Projects\PWM\bin\roslyn\vbc.exe
+D:\Client_Projects\PWM\bin\roslyn\vbc.exe.config
+D:\Client_Projects\PWM\bin\roslyn\vbc.rsp
+D:\Client_Projects\PWM\bin\roslyn\VBCSCompiler.exe
+D:\Client_Projects\PWM\bin\roslyn\VBCSCompiler.exe.config
+D:\Client_Projects\PWM\bin\Antlr3.Runtime.dll
+D:\Client_Projects\PWM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Client_Projects\PWM\bin\Microsoft.Web.Infrastructure.dll
+D:\Client_Projects\PWM\bin\Newtonsoft.Json.dll
+D:\Client_Projects\PWM\bin\System.Web.Helpers.dll
+D:\Client_Projects\PWM\bin\System.Web.Mvc.dll
+D:\Client_Projects\PWM\bin\System.Web.Optimization.dll
+D:\Client_Projects\PWM\bin\System.Web.Razor.dll
+D:\Client_Projects\PWM\bin\System.Web.WebPages.Deployment.dll
+D:\Client_Projects\PWM\bin\System.Web.WebPages.dll
+D:\Client_Projects\PWM\bin\System.Web.WebPages.Razor.dll
+D:\Client_Projects\PWM\bin\WebGrease.dll
+D:\Client_Projects\PWM\bin\System.Web.Helpers.xml
+D:\Client_Projects\PWM\bin\System.Web.Mvc.xml
+D:\Client_Projects\PWM\bin\System.Web.Optimization.xml
+D:\Client_Projects\PWM\bin\System.Web.Razor.xml
+D:\Client_Projects\PWM\bin\System.Web.WebPages.xml
+D:\Client_Projects\PWM\bin\System.Web.WebPages.Deployment.xml
+D:\Client_Projects\PWM\bin\System.Web.WebPages.Razor.xml
+D:\Client_Projects\PWM\bin\Newtonsoft.Json.xml
+D:\Client_Projects\PWM\bin\Antlr3.Runtime.pdb
+D:\Client_Projects\PWM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Client_Projects\PWM\obj\Debug\PWM.csprojAssemblyReference.cache
+D:\Client_Projects\PWM\obj\Debug\PWM.csproj.CopyComplete
+D:\Client_Projects\PWM\obj\Debug\PWM.dll
+D:\Client_Projects\PWM\obj\Debug\PWM.pdb
+D:\Client_Projects\PWM\bin\EntityFramework.dll
+D:\Client_Projects\PWM\bin\EntityFramework.SqlServer.dll
+D:\Client_Projects\PWM\bin\System.Data.SQLite.dll
+D:\Client_Projects\PWM\bin\System.Data.SQLite.EF6.dll
+D:\Client_Projects\PWM\bin\System.Data.SQLite.Linq.dll
+D:\Client_Projects\PWM\bin\EntityFramework.xml
+D:\Client_Projects\PWM\bin\EntityFramework.SqlServer.xml
+D:\Client_Projects\PWM\bin\System.Data.SQLite.xml
+D:\Client_Projects\PWM\bin\System.Data.SQLite.dll.config
+D:\Client_Projects\PWM\obj\Debug\PWM.Migrations.Init.resources
+D:\Client_Projects\PWM\obj\Debug\PWM.csproj.GenerateResource.cache
+D:\PWM (2)\PWM\bin\PWM.dll.config
+D:\PWM (2)\PWM\bin\PWM.dll
+D:\PWM (2)\PWM\bin\PWM.pdb
+D:\PWM (2)\PWM\bin\roslyn\csc.exe
+D:\PWM (2)\PWM\bin\roslyn\csc.exe.config
+D:\PWM (2)\PWM\bin\roslyn\csc.rsp
+D:\PWM (2)\PWM\bin\roslyn\csi.exe
+D:\PWM (2)\PWM\bin\roslyn\csi.exe.config
+D:\PWM (2)\PWM\bin\roslyn\csi.rsp
+D:\PWM (2)\PWM\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\PWM (2)\PWM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\PWM (2)\PWM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\PWM (2)\PWM\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\PWM (2)\PWM\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\PWM (2)\PWM\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\PWM (2)\PWM\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\PWM (2)\PWM\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\PWM (2)\PWM\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\PWM (2)\PWM\bin\roslyn\Microsoft.Managed.Core.targets
+D:\PWM (2)\PWM\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\PWM (2)\PWM\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\PWM (2)\PWM\bin\roslyn\System.AppContext.dll
+D:\PWM (2)\PWM\bin\roslyn\System.Collections.Immutable.dll
+D:\PWM (2)\PWM\bin\roslyn\System.Console.dll
+D:\PWM (2)\PWM\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\PWM (2)\PWM\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\PWM (2)\PWM\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\PWM (2)\PWM\bin\roslyn\System.Globalization.Calendars.dll
+D:\PWM (2)\PWM\bin\roslyn\System.IO.Compression.dll
+D:\PWM (2)\PWM\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\PWM (2)\PWM\bin\roslyn\System.IO.FileSystem.dll
+D:\PWM (2)\PWM\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\PWM (2)\PWM\bin\roslyn\System.Net.Http.dll
+D:\PWM (2)\PWM\bin\roslyn\System.Net.Sockets.dll
+D:\PWM (2)\PWM\bin\roslyn\System.Reflection.Metadata.dll
+D:\PWM (2)\PWM\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\PWM (2)\PWM\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\PWM (2)\PWM\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\PWM (2)\PWM\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\PWM (2)\PWM\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\PWM (2)\PWM\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\PWM (2)\PWM\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\PWM (2)\PWM\bin\roslyn\System.ValueTuple.dll
+D:\PWM (2)\PWM\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\PWM (2)\PWM\bin\roslyn\System.Xml.XmlDocument.dll
+D:\PWM (2)\PWM\bin\roslyn\System.Xml.XPath.dll
+D:\PWM (2)\PWM\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\PWM (2)\PWM\bin\roslyn\vbc.exe
+D:\PWM (2)\PWM\bin\roslyn\vbc.exe.config
+D:\PWM (2)\PWM\bin\roslyn\vbc.rsp
+D:\PWM (2)\PWM\bin\roslyn\VBCSCompiler.exe
+D:\PWM (2)\PWM\bin\roslyn\VBCSCompiler.exe.config
+D:\PWM (2)\PWM\bin\Antlr3.Runtime.dll
+D:\PWM (2)\PWM\bin\EntityFramework.dll
+D:\PWM (2)\PWM\bin\EntityFramework.SqlServer.dll
+D:\PWM (2)\PWM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\PWM (2)\PWM\bin\Microsoft.Web.Infrastructure.dll
+D:\PWM (2)\PWM\bin\Newtonsoft.Json.dll
+D:\PWM (2)\PWM\bin\System.Data.SQLite.dll
+D:\PWM (2)\PWM\bin\System.Data.SQLite.EF6.dll
+D:\PWM (2)\PWM\bin\System.Data.SQLite.Linq.dll
+D:\PWM (2)\PWM\bin\System.Web.Helpers.dll
+D:\PWM (2)\PWM\bin\System.Web.Mvc.dll
+D:\PWM (2)\PWM\bin\System.Web.Optimization.dll
+D:\PWM (2)\PWM\bin\System.Web.Razor.dll
+D:\PWM (2)\PWM\bin\System.Web.WebPages.Deployment.dll
+D:\PWM (2)\PWM\bin\System.Web.WebPages.dll
+D:\PWM (2)\PWM\bin\System.Web.WebPages.Razor.dll
+D:\PWM (2)\PWM\bin\WebGrease.dll
+D:\PWM (2)\PWM\bin\EntityFramework.xml
+D:\PWM (2)\PWM\bin\EntityFramework.SqlServer.xml
+D:\PWM (2)\PWM\bin\System.Data.SQLite.xml
+D:\PWM (2)\PWM\bin\System.Data.SQLite.dll.config
+D:\PWM (2)\PWM\bin\System.Web.Helpers.xml
+D:\PWM (2)\PWM\bin\System.Web.Mvc.xml
+D:\PWM (2)\PWM\bin\System.Web.Optimization.xml
+D:\PWM (2)\PWM\bin\System.Web.Razor.xml
+D:\PWM (2)\PWM\bin\System.Web.WebPages.xml
+D:\PWM (2)\PWM\bin\System.Web.WebPages.Deployment.xml
+D:\PWM (2)\PWM\bin\System.Web.WebPages.Razor.xml
+D:\PWM (2)\PWM\bin\Newtonsoft.Json.xml
+D:\PWM (2)\PWM\bin\Antlr3.Runtime.pdb
+D:\PWM (2)\PWM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\PWM (2)\PWM\obj\Debug\PWM.csprojAssemblyReference.cache
+D:\PWM (2)\PWM\obj\Debug\PWM.Migrations.Init.resources
+D:\PWM (2)\PWM\obj\Debug\PWM.csproj.GenerateResource.cache
+D:\PWM (2)\PWM\obj\Debug\PWM.csproj.CopyComplete
+D:\PWM (2)\PWM\obj\Debug\PWM.dll
+D:\PWM (2)\PWM\obj\Debug\PWM.pdb
