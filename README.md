@@ -1,7 +1,7 @@
 # Water_Mango
 Remote Water Management System.
 
-This water management system provides a user with the ability to water plants with the help of a button and responses using a bacground color code that signify the following: 
+This water management system provides a user with the ability to water plants with the help of a button and responses using a background color code that signify the following: 
 
 __RED__: NEEDS WATERING
 
